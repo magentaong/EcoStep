@@ -19,8 +19,11 @@ body {
     padding: 10px 20px;
     font-family: 'Inknut Antiqua',serif;
     font-weight: bold;
+    font-size: 12px;
     height: 25px;
 }
+
+
 /* navbar styling */
 .navbar {
     position: sticky;
@@ -72,7 +75,7 @@ body {
 .navbar .search-bar input {
     display: flex;
     padding: 5px 10px;
-    font-size: 14px; 
+    font-size: 16px; 
     border-radius: 20px; 
     outline: none; 
     transition: box-shadow 0.3s ease; 
@@ -176,7 +179,7 @@ body {
     transform: translate(-50%, -50%);
     text-align: center;
     color: whitesmoke;
-    font-size: 24px;
+    font-size: 18px;
     text-shadow: 0 2px 4px rgba(0, 0, 0, 0.6);
 }
 
@@ -196,3 +199,91 @@ body {
 .feature:hover .overlay {
     background-color: transparent;
 }
+
+hr {
+    display: block;
+    height: 1px;
+    border: 0;
+    border-top: 1px solid #75C574;
+    margin: 1em 0;
+    padding: 20px;
+}
+
+.product-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    padding: 50px 50px ;
+    height: 300px; 
+    width: 100%; /* Full width */
+    flex-wrap: nowrap; /* Prevent wrapping */
+    overflow: hidden; /* Avoid overflow on smaller screens */
+  }
+
+.product-card {
+    flex: 1 1 auto;
+    position: relative;
+    width: 250px; /* Card size */
+    height: 300px; /* Card height */
+    overflow: hidden;
+    border-radius: 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    cursor: pointer;
+    transition: transform 0.5s ease, box-shadow 0.5s ease;
+  }
+
+.product-card img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 15px; /* Match card’s border radius */
+  }
+  
+.product-content {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 15px;
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0)); /* Gradient overlay */
+    opacity: 0;
+    transform: translateY(100%); /* Starts off-screen */
+    transition: opacity 0.5s ease, transform 0.5s ease;
+  }
+
+.product-content h3 {
+    font-size: 18px;
+    font-weight: bold;
+    color: whitesmoke;
+    margin-bottom: 10px;
+  }
+
+.product-content span {
+    font-size: 14px;
+    text-align: center;
+    color: #ccc;
+    margin-bottom: 10px;
+  }
+
+.product-card:hover {
+    transform: scale(1.05);/* Slight zoom effect */
+    transition: width 0.3s ease, transform 0.5s ease;; 
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3); /* Enhanced shadow */
+  }
+
+.product-card:hover .product-content {
+    opacity: 1; /* Make overlay visible */
+    transform: translateY(0); /* Slide overlay into view */
+    transition: width 0.5s ease, transform 0.5s ease;; 
+  }
+.product-card:not(:hover) {
+    transition: width 0.5s ease, transform 0.5s ease;; 
+    flex: 1 1 0%; /* Compress unhovered cards */
+  }
+
