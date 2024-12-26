@@ -1,4 +1,4 @@
-# EcoStep Landing Page 
+# 🌱 EcoStep Landing Page 🌱
 
 **Welcome to the EcoStep Landing Page!**  <br>
 This project is a fully responsive and interactive landing page designed and developed to highlight EcoStep’s commitment to sustainable and environmentally conscious living. <br><br>
