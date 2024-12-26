@@ -21,7 +21,7 @@ Designed using Adobe Illustrator (Icon) and Figma (Lo-fi prototype)
 ---
 
 ## 🎨 Design
-This landing page was **designed by me**, focusing on delivering a user-friendly and visually appealing experience. <hr>
+This landing page was **designed by me**, focusing on delivering a user-friendly and visually appealing experience. <br>
 The design aligns with EcoStep’s mission to promote sustainability.
 ---
 ## 🛫 Preview
