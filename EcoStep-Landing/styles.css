@@ -287,3 +287,29 @@ hr {
     flex: 1 1 0%; /* Compress unhovered cards */
   }
 
+.highlight-green {
+    color: #75C574 ;
+}
+
+q {
+    display: flex;
+    z-index: 3;
+    justify-content: center;
+    text-align: center;
+    font-size: 48px;
+    font-family: 'Inknut Antiqua', serif;
+    padding: 5px;
+}
+
+.quotes {
+    display: flex;
+    z-index: 3;
+    justify-content: center;
+    text-align: center;
+    font-size: 20px;
+    padding: 5px;
+    font-family: 'Inknut Antiqua', serif;
+    line-height: 0.5;
+    text-decoration: underline;
+}
+
