@@ -5,7 +5,6 @@
 }
 body {
     margin: 0;
-    padding: 10;
 }
 
 /* Extra 10% off styling */
@@ -33,7 +32,7 @@ body {
     background-color: #acedab;
     justify-content: space-between;
     padding: 10px 20px;
-    box-shadow: 0 2px 4px rbga(0,0,0,0.1);
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.15) ;
     font-family: 'Inknut Antiqua',serif;
     height: 80px;
 }
@@ -107,7 +106,6 @@ body {
 #hero .highlight {
     background-color: #75c574;
     color: whitesmoke;
-    font-style: bold;
     text-shadow: 0 2px 4px rgba(0, 0, 0, 0.6);
     padding: 15px 20px;
     height:fit-content;
@@ -289,7 +287,6 @@ hr {
 
 .highlight-green {
     color: #75C574 ;
-    overflow-inline: flex-wrap;
 }
 
 q {
@@ -300,7 +297,6 @@ q {
     font-size: 48px;
     font-family: 'Inknut Antiqua', serif;
     padding: 2px;
-    overflow-inline: flex-wrap;
 }
 
 .quotes {
@@ -343,3 +339,107 @@ q {
     font-size: 18px;
     z-index: 3;
 }
+
+/* Newsletter Form Styling */
+.newsletter-form {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+  }
+  
+
+.newsletter-form input {
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    font-size: 16px;
+    outline: none;
+  }
+
+  .newsletter-form button {
+    padding: 10px 20px;
+    background-color: #75c574;
+    border: none;
+    border-radius: 5px;
+    color: whitesmoke;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .newsletter-form button:hover {
+    background-color: #57a756; 
+  }
+
+  .footer-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start; /* Aligns items to the top of the container */
+    padding: 70px 100px;
+    background-color: black;
+    flex-wrap: wrap; /* Allows items to wrap if needed on smaller screens */
+  }
+  
+  .footer-section {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 10px;
+  }
+  
+  .social-media {
+    flex: 2; 
+  }
+  
+  .newsletter {
+    flex: 2; 
+    align-items: flex-end;
+    text-align: right;
+  }
+  
+  .footer-section p {
+    color: whitesmoke;
+    font-size: 24px;
+    margin: 0;
+  }
+  
+  .social-media img {
+    width: 150px; /* Adjust size of social media icons */
+    margin-bottom: 10px;
+  }
+  
+  .newsletter-form {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+  }
+  
+  .newsletter-form input {
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    font-size: 18px;
+    outline: none;
+  }
+  
+  .newsletter-form button {
+    padding: 10px 20px;
+    background-color: #75c574;
+    border: none;
+    border-radius: 5px;
+    color: whitesmoke;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .newsletter-form button:hover {
+    background-color: #57a756;
+  }
+  
+  .copyright {
+    margin-top: 20px; 
+    font-size: 12px; 
+    align-self: flex-start;
+  }
+  
