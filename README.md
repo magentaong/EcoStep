@@ -41,5 +41,10 @@ The design aligns with EcoStep’s mission to promote sustainability.
 🙌 Acknowledgments
 - Fonts: Google Fonts - Inknut Antiqua.
 - Pictures: Free Images on Pixabay
+---
 
+
+## Next Steps
+1. Make layout responsive
+2. Design the other pages + include JS for functionality
 
