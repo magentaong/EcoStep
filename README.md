@@ -1,7 +1,7 @@
 # 🌱 EcoStep Landing Page 🌱
 
 **Welcome to the EcoStep Landing Page!**  <br>
-This project is a fully responsive and interactive landing page designed and developed to highlight EcoStep’s commitment to sustainable and environmentally conscious living. <br><br>
+This project is a responsive and interactive landing page designed and developed to highlight EcoStep’s commitment to sustainable and environmentally conscious living. It's focus is on implementing HTML and CSS only <br><br>
 Designed using Adobe Illustrator (Icon) and Figma (Lo-fi prototype)
 ---
 
@@ -16,7 +16,6 @@ Designed using Adobe Illustrator (Icon) and Figma (Lo-fi prototype)
 ## 🛠️ Technologies Used
 - **HTML5**
 - **CSS3**
-- **JavaScript** (WIP)
 
 ---
 
@@ -47,5 +46,5 @@ The design aligns with EcoStep’s mission to promote sustainability.
 
 ## Next Steps
 1. Make layout responsive
-2. Design the other pages + include JS for functionality
+2. Design the other pages
 
