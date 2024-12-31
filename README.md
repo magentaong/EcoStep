@@ -26,7 +26,7 @@ The design aligns with EcoStep’s mission to promote sustainability.
 ---
 ## 🛫 Preview
 
-![EcoStepaLogoWithWords](https://github.com/user-attachments/assets/a922b3f0-c182-4d70-bc16-c73affc585b0)
+![ECOSTEP-centralised](https://github.com/user-attachments/assets/99b84edd-0f28-48e7-9218-e2c09552aed0)
 
 ![image](https://github.com/user-attachments/assets/38f935bd-6b18-4e37-bd51-b96d877175f4)
 
